@@ -4,6 +4,7 @@
 
 ## pre_cleaner(data)
 data -> pd.DataFrame
+
 The pre_cleaner() function visualizes the data from a given column and then asks what to do with the column:
 - d: drop column
 - s: skip (correct later manually)
@@ -15,5 +16,6 @@ The pre_cleaner() function visualizes the data from a given column and then asks
 
 ## to_clean(data)
 data -> pd.DataFrame
+
 Function return name of columns which need to be clean
 ##### Chcecking data standarization/normalization will be implemented
