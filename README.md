@@ -1,6 +1,6 @@
 # Data-preprocessing
 
-### pre_cleaner.py - Pre cleaning data (by column)
+### pre_cleaner.py - File with Pre cleaning functions
 
 ## pre_cleaner(data)
 data -> pd.DataFrame
