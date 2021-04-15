@@ -5,7 +5,7 @@
 ## pre_cleaner(data)
 data -> pd.DataFrame
 
-The pre_cleaner() function visualizes the data from a given column and then asks what to do with the column:
+The pre_cleaner(data, legend=True) function visualizes the data from a given column and then asks what to do with the column:
 - d: drop column
 - s: skip (correct later manually)
 - f: fill with most_frequent value
